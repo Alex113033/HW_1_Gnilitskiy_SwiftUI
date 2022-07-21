@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1F0F87502887277900E557D9 /* HW_1_Gnilitskiy_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F874F2887277900E557D9 /* HW_1_Gnilitskiy_SwiftUIApp.swift */; };
-		1F0F87522887277900E557D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F87512887277900E557D9 /* ContentView.swift */; };
 		1F0F87542887277E00E557D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F87532887277E00E557D9 /* Assets.xcassets */; };
 		1F0F87572887277E00E557D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F87562887277E00E557D9 /* Preview Assets.xcassets */; };
+		1F0F8760288959F100E557D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F875F288959F100E557D9 /* ContentView.swift */; };
+		1F0F876228895A2A00E557D9 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F876128895A2A00E557D9 /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F0F874C2887277900E557D9 /* HW_1_Gnilitskiy_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_1_Gnilitskiy_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0F874F2887277900E557D9 /* HW_1_Gnilitskiy_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_1_Gnilitskiy_SwiftUIApp.swift; sourceTree = "<group>"; };
-		1F0F87512887277900E557D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F0F87532887277E00E557D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0F87562887277E00E557D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F0F875F288959F100E557D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F0F876128895A2A00E557D9 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				1F0F874F2887277900E557D9 /* HW_1_Gnilitskiy_SwiftUIApp.swift */,
-				1F0F87512887277900E557D9 /* ContentView.swift */,
+				1F0F876128895A2A00E557D9 /* ColorCircle.swift */,
+				1F0F875F288959F100E557D9 /* ContentView.swift */,
 				1F0F87532887277E00E557D9 /* Assets.xcassets */,
 				1F0F87552887277E00E557D9 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0F87522887277900E557D9 /* ContentView.swift in Sources */,
+				1F0F8760288959F100E557D9 /* ContentView.swift in Sources */,
 				1F0F87502887277900E557D9 /* HW_1_Gnilitskiy_SwiftUIApp.swift in Sources */,
+				1F0F876228895A2A00E557D9 /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
