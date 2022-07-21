@@ -44,7 +44,7 @@ struct ContentView: View {
                 Text("\(buttonText)")
                     .font(.title)
             }
-            .offset(x: 0, y: 80)
+            .offset(x: 0, y: 40)
         }
     }
 }

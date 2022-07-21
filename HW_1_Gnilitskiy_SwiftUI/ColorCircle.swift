@@ -27,7 +27,7 @@ struct ColorCircle: View {
                 .frame(width: 100, height: 100)
                 .shadow(color: colorThree, radius: 15)
         }
-        .offset(x: 0, y: -110)
+        .offset(x: 0, y: -80)
 
     }
 }
